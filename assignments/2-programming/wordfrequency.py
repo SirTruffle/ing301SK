@@ -1,6 +1,5 @@
 from pathlib import Path
 
-
 # Dette er Starterkoden til den første øvelsen i ING 301
 #
 # Du skal utvikle et programm som finner det hyppigste ordet i en gitt tekstfil.
@@ -44,7 +43,6 @@ def lines_to_words(lines):
     for index, line in enumerate(lines):
         lines[index] = line.lower().strip(',.;:!?123456789').split()
         words.extend(lines[index])
-
     return words
 
 
